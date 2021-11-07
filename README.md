@@ -91,7 +91,7 @@ Este proyecto ha sido elaborado por:
  <ol>
   <li>Ana Blanco
     <ul>
-      <li>Posicionamiento de barcos</li>
+      <li>Creación de tableros y posicionamiento de barcos</li>
       <li>Impresión gráfica de tableros</li>
     </ul>
   </li>
@@ -103,3 +103,5 @@ Este proyecto ha sido elaborado por:
   </li>
 </ol> 
 
+## Diagrama de fuciones Creación de tableros y posicionamiento de barcos
+![Diagrama de funciones creación de tableros](/img/diagrama_funciones.svg)
