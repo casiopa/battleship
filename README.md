@@ -1,12 +1,40 @@
 # Battleship
 
-Juego de hundir la flota desarrollado usando numpy. El objetivo del juego es hundir todos los barcos del enemigo, antes de que él consiga hundir los tuyos.
+Juego de hundir la flota desarrollado usando python y numpy.
+
+## Recursos utilizados
+* Lenguaje utilizado: Python 3.9.5
+  * Librerías: 
+    * numpy 
+    * string
+    * re
+
+## Contribuidores
+Este proyecto ha sido elaborado por:
+ <ol>
+  <li>Ana Blanco
+    <ul>
+      <li>Creación de tableros y posicionamiento de barcos</li>
+      <li>Impresión gráfica de tableros</li>
+    </ul>
+  </li>
+  <li>Ignacio Gonzalez-Espejo
+    <ul>
+      <li>Disparar</li>
+      <li>Lógica de juego</li>
+    </ul> 
+  </li>
+</ol> 
+
+## Diagrama de funciones para la creación de los tableros y el posicionamiento de los barcos
+![Diagrama de funciones creación de tableros](/img/diagrama_funciones.svg)
+
+## Instrucciones
+El objetivo del juego es hundir todos los barcos del enemigo, antes de que él consiga hundir los tuyos.
 
 **¡El primer jugador en quedarse sin barcos pierde!**
 
-## Instrucciones
-
-* El tablero se compone de 100 posiciones, de las cuales los barcos ocuparán 20. 
+* El tablero se compone de 100 posiciones, de las cuales los barcos ocuparán 20.
 
 * Hay un total de 10 barcos
 
@@ -17,7 +45,7 @@ Juego de hundir la flota desarrollado usando numpy. El objetivo del juego es hun
   
 * Los barcos pueden colocarse hacia el norte, sur, este y oeste siempre que no se salgan del tablero
 
-* No puede haber dos barcos en la misma posición. 
+* No puede haber dos barcos en la misma posición.
 
 * En cada turno, puedes disparar a una coordenada en la que no hayas disparado antes.
   1) Si das a uno de los barcos del contrincante, te vuelve a tocar
@@ -79,29 +107,3 @@ Un tablero en una fase más adelantada del juego puede parecer así
                 10 |        -          |
                     -------------------
 ```
-## Recursos utilizados
-* Lenguaje utilizado: Python 3.9.5
-  * Librerías: 
-    * numpy 
-    * string
-    * re
-
-## Contribuidores
-Este proyecto ha sido elaborado por:
- <ol>
-  <li>Ana Blanco
-    <ul>
-      <li>Creación de tableros y posicionamiento de barcos</li>
-      <li>Impresión gráfica de tableros</li>
-    </ul>
-  </li>
-  <li>Ignacio Gonzalez-Espejo
-    <ul>
-      <li>Disparar</li>
-      <li>Lógica de juego</li>
-    </ul> 
-  </li>
-</ol> 
-
-## Diagrama de funciones para la creación de los tableros y el posicionamiento de los barcos
-![Diagrama de funciones creación de tableros](/img/diagrama_funciones.svg)
