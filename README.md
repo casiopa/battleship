@@ -103,5 +103,5 @@ Este proyecto ha sido elaborado por:
   </li>
 </ol> 
 
-## Diagrama de fuciones Creación de tableros y posicionamiento de barcos
+## Diagrama de funciones para la creación de los tableros y el posicionamiento de los barcos
 ![Diagrama de funciones creación de tableros](/img/diagrama_funciones.svg)
